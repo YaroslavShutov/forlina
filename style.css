@@ -21,7 +21,7 @@ input[type="text"] {
 }
 
 body{
-  font-size: 15px;
+  font-size: 10px;
   font-family: "MyFont";
   display: flex;
   align-items: center;
