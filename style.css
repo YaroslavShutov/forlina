@@ -2,9 +2,9 @@
   font-family: 'MyFont';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/Connie-Regular.ttf'); /* IE9 Compat Modes */
+  src: url('../../forlina/fonts/Connie-Regular.ttf'); /* IE9 Compat Modes */
   src: local(''),
-       url('../fonts/Connie-Regular.ttf') format('truetype')
+       url('../../forlina/fonts/Connie-Regular.ttf') format('truetype')
 }
 
 input[type="text"] {
