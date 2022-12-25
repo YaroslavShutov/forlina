@@ -1,0 +1,91 @@
+@font-face {
+  font-family: 'MyFont';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Connie-Regular.ttf'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/Connie-Regular.ttf') format('truetype')
+}
+
+input[type="text"] {
+  font-family: inherit; /* 1 */
+  font-size: inherit; /* 1 */
+  line-height: inherit; /* 1 */
+  margin: 0; /* 2 */
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 15px;
+  font-family: "MyFont";
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  background: url(/image/background.jpg);
+  background-size: contain;
+  flex-direction: column
+}
+
+.black{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: 1s unblack linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes unblack{
+  from{
+    
+  }
+  to{
+    opacity: 0;
+    display: none;
+  }
+}
+
+.title{
+  font-size: 35px;
+  margin-top: 30px;
+}
+
+body>div{
+  text-align: center;
+  padding: 10px;
+  width: 50%;
+  height: 150px;
+  display: flex;
+  background: linear-gradient(140deg, #A474FF00 25%, #FF74BB8A 50%, #A474FF00 75%);
+  position: relative;
+  margin: 30px;
+}
+
+body>div:first-child{
+  background: black;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+}
+
+.first{
+  left: -20%;
+}
+
+.second{
+  width: 75%;
+  left: 7%;
+}
+
+.third{
+  width: 100%;
+}
