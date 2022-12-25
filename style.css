@@ -7,12 +7,7 @@
        url('../../forlina/fonts/Connie-Regular.ttf') format('truetype')
 }
 
-input[type="text"] {
-  font-family: inherit; /* 1 */
-  font-size: inherit; /* 1 */
-  line-height: inherit; /* 1 */
-  margin: 0; /* 2 */
-}
+
 
 *{
   padding: 0;
@@ -21,7 +16,7 @@ input[type="text"] {
 }
 
 body{
-  font-size: 10px;
+  font-size: 5px;
   font-family: "MyFont";
   display: flex;
   align-items: center;
@@ -55,7 +50,7 @@ body{
 }
 
 .title{
-  font-size: 35px;
+  font-size: 25px;
   margin-top: 30px;
 }
 
